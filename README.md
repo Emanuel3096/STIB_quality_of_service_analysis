@@ -289,4 +289,3 @@ Several factors may explain the absence of real arrivals in these time groups:
 * **Faulty reception** from vehicle positioning systems
 * **“Ghost trips”**, i.e. trips present in the schedule but that did not actually occur
 * **Limitations or potential miscomputations** in the analysis itself
-
