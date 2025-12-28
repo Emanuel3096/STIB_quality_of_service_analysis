@@ -17,10 +17,19 @@ Thanks to the **open data APIs provided by STIB**
 it is possible to perform such an analysis.
 
 This study covers the period from **August 23rd, 2025 to September 15th, 2025**.
-
 The analysis was carried out in the spirit of the **Data Mining course** from the **Specialized Master in Data Science – Big Data curriculum (ULB)**.
 
 ---
+## 📁 Project Structure
+
+- `main_script.py`  
+  Main execution script. Orchestrates the full pipeline:
+  data collection, preprocessing, modelling, and metric computation.
+
+- `clustering.py`  
+  Implements stop clustering logic using DBSCAN and name-based correction
+  to group physically equivalent stops.
+
 
 ## 📊 Dataset
 
