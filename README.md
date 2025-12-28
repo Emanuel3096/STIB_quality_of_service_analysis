@@ -256,12 +256,6 @@ Finally, **EWT** was computed by combining the SWT and AWT values.
 
 ### 4. Analysis
 
-Here is the section **formatted consistently with the previous ones**, with **clean Markdown**, **corrected English**, and **improved flow**, while keeping **your original style and intent**.
-
----
-
-### 4. Analysis
-
 Further analysis was carried out using a **Power BI dashboard**, where bottlenecks and other operational patterns can be identified much more quickly and intuitively.
 
 The analysis pipeline was designed in this way to allow **STIB decision makers** (if desired) to explore:
