@@ -12,14 +12,15 @@ Everyday it provides transport to 1,2 million people. Given this complexity and 
 The below analysis was done in the spirif of the Data Mining course from the Specialized Master in data science, Big data curcciulum, from ULB.
 
 ## 📊 Dataset
-# GTFS
--General Transit Feed Specification - Several txt files on schedule, route, stops, trip
--Can change daily, so needs to be queried on each day of the analysis
--**Role in the project:** Provides the planned baseline of the STIB transit network for analysis on headways, route, and stop structure, base for the "shedule arrivals" table
-# Vehicle Position
--GEOJSON data - Vehicle position details
--Each API call returns the latest position for every active vehicle, which changes roughly every 20 seconds when on operation
--**Role in the project:**Collects actual vehicle movements to compute headways and operational performance
+**1. GTFS**
+- General Transit Feed Specification - Several txt files on schedule, route, stops, trip
+- Can change daily, so needs to be queried on each day of the analysis
+- **Role in the project:** Provides the planned baseline of the STIB transit network for analysis on headways, route, and stop structure, base for the "shedule arrivals" table
+- 
+**2. Vehicle Position**
+- GEOJSON data - Vehicle position details
+- Each API call returns the latest position for every active vehicle, which changes roughly every 20 seconds when on operation
+- **Role in the project:**Collects actual vehicle movements to compute headways and operational performance
 
 ## 🛠️ Tools & Skills
 - Python (pandas, scikit-learn)
